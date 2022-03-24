@@ -49,15 +49,15 @@
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-body">
-                <h1>Financial Calculator</h1>
+                <h1>Financial Calculator for You and someone else</h1>
                 <p>
-                    Big spender, eh?
+                    How well do you share your spendings?
                 </p>
             </div>
             <div class="panel-body">
                 <form action = '/calculator' method="post">
-                    <ListInput type="radio" name="select"  label="Select spender" items={list} defaultValue={1} />
-                    <TextInput type="number" name="amount" label="Spent" placeholder="Amount EUR" required/>
+                    <ListInput type="radio" name="select"  label="Who spent the money?" items={list} defaultValue={1} />
+                    <TextInput type="number" name="amount" label="How much did you spend?" placeholder="Amount EUR"/>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
@@ -67,7 +67,6 @@
                 </div>
             </div>
             <div class="panel-heading">
-                Table without headers
             </div>
             <div class="panel-body">
                 <!-- <Table headers={tableHeaders} data={tableData}/> -->

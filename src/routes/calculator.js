@@ -59,7 +59,6 @@ function sumOfAmounts(dataForChart) {
             sumNotMe += Number(dataForChart[i].amount);
         }
     }
-    console.log(sumMe);
     return {'Me' : sumMe, 'Not me' : sumNotMe}
 }
 

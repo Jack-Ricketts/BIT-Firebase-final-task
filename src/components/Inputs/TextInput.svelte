@@ -18,7 +18,7 @@
     {#if !!defaultValue}
     <input class="form-control" type="{type}" name="{name}" id="{id}" placeholder="{placeholder}" value={defaultValue}>
     {:else}
-    <input class="form-control" type="{type}" name="{name}" id="{id}" placeholder="{placeholder}">
+    <input class="form-control" type="{type}" name="{name}" id="{id}" placeholder="{placeholder}" required>
     {/if}
 </div>
 
