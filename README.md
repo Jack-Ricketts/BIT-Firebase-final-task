@@ -1,4 +1,4 @@
-Serverio launch:
+Server launch:
 
 ```bash
 npm install
